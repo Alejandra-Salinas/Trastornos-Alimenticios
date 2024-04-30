@@ -1,0 +1,188 @@
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color:green; 
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #4CAF50; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #58EA44; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #58EA44;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

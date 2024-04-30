@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Blanco */
+    color: #333333; /* Negro */
+}
+
+header {
+    background-color: #33cc33; /* Verde */
+    padding: 20px;
+    color: #ffffff; /* Blanco */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Blanco */
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+
+    }
+
+section {
+        background-color: #f9f9f9;
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+footer {
+    background-color: #33cc33; /* Verde */
+    padding: 20px;
+    text-align: center;
+    color: #ffffff; /* Blanco */
+}
+.image-container {
+    width: 300px; /* Ajusta el tamaño del contenedor según sea necesario */
+    border: 4px solid #333333; /* Color y grosor del borde */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Para ocultar cualquier parte de la imagen que se salga del contenedor */
+}
+
+.image-container img {
+    width: 100%; /* La imagen se ajusta al ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la relación de aspecto */
+    display: block; /* Para evitar cualquier espacio adicional debajo de la imagen */
+}
+
+<section class="form">
+<div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+<STYLE type="text/css">
+<!--
+A:link {COLOR: green; TEXT-DECORATION: none}
+A:visited {COLOR: white; TEXT-DECORATION: none}
+A:active {TEXT-DECORATION: none}
+A:hover {COLOR: blue; TEXT-DECORATION: underline} -->
+</STYLE>
+
+
+</script></div><div class="n"><div class="n"> <a href="#" title="Ir arriba"><img alt="Ir arriba" border="0" src="https://images.vexels.com/media/users/3/217808/isolated/preview/ef5c05a5cf58eb0547d71912077aafdf-doodle-de-flecha-negra.png" style=position:fixed;bottom:0;right:0;width="30" height="30"/></a> </div>
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
